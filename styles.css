@@ -6,7 +6,7 @@
 }
 
 .navbar{
-    background: #131313;
+    background: #c9c4c4;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -29,8 +29,7 @@
 }
 
 #navbar__logo{
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-color: #f77062;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -123,7 +122,7 @@
         transition: all 0.5s ease;
         height: 50vh;
         z-index: -1;
-        background: #131313;
+        background: #111010;
     }
 
     .navbar__menu.active{
@@ -201,7 +200,7 @@
 /* Hero section CSS */
 
 .main{
-    background-color: #141414;
+    background-color: #c9c4c4;
 }
 
 .main__container{
@@ -211,33 +210,37 @@
     justify-self: center;
     margin: 0 auto;
     height: 90vh;
-    background-color: #141414;
+    background-color: #d3d1d1;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
+    max-width: 1500px;
     padding: 0 50px;
 }
 
 .main__content h1{
     font-size: 4rem;
     background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-image: linear-gradient(to top, #fffcfc 0%, #9e9d9c 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 
 .main__content h2{
     font-size: 4rem;
     background-color: #ff8177;
-    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+    background-image: linear-gradient(to top, #fffcfc 0%, #9e9d9c 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 
 .main__content p{
@@ -249,7 +252,7 @@
 
 .main__btn{
     font-size: 1rem;
-    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    background: red;
     padding: 14px 32px;
     border: none;
     border-radius: 4px;
@@ -294,10 +297,215 @@
 
 #main__img{
     height: 80%;
-    width: 80%;
+    width: 100%;
 }
 
-/* mobile responsive*/
+.work{
+    background-color: #c9c4c4;
+}
+
+.work__container{
+    display: block;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 50vh;
+    background-color: #d3d1d1;
+    z-index: 1;
+    width: 100%;
+    max-width: 1500px;
+    padding: 0 50px;
+}
+
+.work__content h1{
+    font-size: 4rem;
+    color: white;
+}
+
+.work__content h2{
+    font-size: 2rem;
+    color: white;
+}
+
+.work__btn{
+    font-size: 1rem;
+    background: red;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+
+}
+
+.work__btn a{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.work__btn:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #4837ff;
+    transition: all 0.35s;
+    border-radius: 4px;
+}
+
+.work__btn:hover{
+    color: #fff;
+}
+
+.work__btn:hover:after{
+    width: 100%;
+}
+
+.closet{
+    background-color: #c9c4c4;
+}
+
+.closet__container{
+    display: block;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 50vh;
+    background-color: #d3d1d1;
+    z-index: 1;
+    width: 100%;
+    max-width: 1500px;
+    padding: 0 50px;
+}
+
+.closet__content h1{
+    font-size: 4rem;
+    color: white;
+}
+
+.closet__content h2{
+    font-size: 2rem;
+    color: white;
+}
+
+.closet__btn{
+    font-size: 1rem;
+    background: red;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+
+}
+
+.closet__btn a{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.closet__btn:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #4837ff;
+    transition: all 0.35s;
+    border-radius: 4px;
+}
+
+.closet__btn:hover{
+    color: #fff;
+}
+
+.closet__btn:hover:after{
+    width: 100%;
+}
+
+.intrests{
+    background-color: #c9c4c4;
+}
+
+.intrests__container{
+    display: block;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 50vh;
+    background-color: #d3d1d1;
+    z-index: 1;
+    width: 100%;
+    max-width: 1500px;
+    padding: 0 50px;
+}
+
+.intrests__content h1{
+    font-size: 4rem;
+    color: white;
+}
+
+.intrests__content h2{
+    font-size: 2rem;
+    color: white;
+}
+
+.intrests__btn{
+    font-size: 1rem;
+    background: red;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+
+}
+
+.intrests__btn a{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.intrests__btn:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #4837ff;
+    transition: all 0.35s;
+    border-radius: 4px;
+}
+
+.intrests__btn:hover{
+    color: #fff;
+}
+
+.intrests__btn:hover:after{
+    width: 100%;
+}
 
 @media screen and (max-width: 768px){
     .main__container{
