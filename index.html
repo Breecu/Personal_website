@@ -4,88 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NEXT Website</title>
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="container">
     <nav class="navbar">
-        <div class="navbar__container">
-            <a href="/" id="navbar__logo">BPW</a>
+        
             <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
-            <ul class="navbar__menu">
-                <li class="navbar__item">
-                    <a href="/" class="navbar__links">
-                        Home
-                    </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="/work.html" class="navbar__links">
-                        Work
-                    </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="/closet.html" class="navbar__links">
-                        Closet
-                    </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="/" class="navbar__links">
-                        Intrests
-                    </a>
-                </li>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#intrests">Intrests</a></li>
+                <li><a href="#closet">Closet</a></li>
             </ul>
-        </div>
+        
     </nav>
 
-    <div class=" main">
-        <div class = "main__container">
-            <div class="main__content">
-                <h1>Brayans World</h1>
-                <h2>Personal Website</h2>
-                <p>See what makes me different!</p>
-                <button class="main__btn"><a href="/work.html">View My Work</a></button>
-            </div>
-            <!--<div class="main__imagine--container">
-                <img src="images/pic1.svg" alt="pic" id="main__img">
-            </div> -->
+    <section id="home">
+        <div class="home">
+                    <h1>Welcome!</h1>
+                    <h2>Learn About Me</h2>
+                    <p>See what makes me different!</p>
+                    <button class="main__btn"><a href="/work.html">View My Work</a></button>
         </div>
-    </div>
+    </section>
 
-    <div class="work">
-        <div class="work__container">
-            <div class="work__content">
-                <h1>Work</h1>
-                <h2>This sections will highlight my computer science related experience and projects</h2>
-                <button class="work__btn"><a href="/work.html">Work</a></button>
-            </div>
+    <section id="work">
+        <div class="work">
+            
+                
+                    <h1>Work</h1>
+                    <h2>Highlighting my computer science related experience and projects</h2>
+                    <p>Experience using Java, Python, C</p>
+                    <p>Projects including games and an online resume!</p>
+                    <p>Click the work button below to view it all.</p>
+                    <button class="work__btn"><a href="/work.html">View My Work</a></button>
+                
+            
         </div>
-    </div>
+    </section>>
 
-    <div class="closet">
-        <div class="closet__container">
-            <div class="closet__content">
-                <h1>Closet</h1>
-                <h2>This sections will showcase some of my favorite items in my personal closet</h2>
-                <button class="closet__btn"><a href="/closet.html">Closet</a></button>
-            </div>
+    <section id="intrests">
+        <div class="intrests">
+            
+                    <h1>Intrests</h1>
+                    <h2>I dont only like to code I do have a life ;)</h2>
+                    <p>Music, art, clothes, architecture</p>
+                    <p>learn more about me and what I research outside of the computer science field</p>
+                    <button class="intrests__btn"><a href="/intrests.html">View My Intrests</a></button>
+               
         </div>
-    </div>
+    </section>>
 
-    <div class="intrests">
-        <div class="intrests__container">
-            <div class="intrests__content">
-                <h1>Intrests</h1>
-                <h2>This sections will highlight all my hobbies and intrests</h2>
-                <button class="intrests__btn"><a href="/intrests.html">Intrests</a></button>
-            </div>
+    <section id="closet">
+        <div class="closet">
+            
+                    <h1>Closet</h1>
+                    <h2>Collecting cool clothes is what I do</h2>
+                    <p>Out of all my intrests from the past section, collecting and studying clothing history and fashion is my favorite hobby/intrest</p>
+                    <p>Here I'll be going through some my favorite pieces of clothing from my closet and describing their signifigance</p>
+                    <button class="closet__btn"><a href="/closet.html">View My Closet</a></button>
+           
         </div>
-    </div>
+    </section>>
 
     <script src="apps.js"></script>
+</div>
 </body>
 </html>
