@@ -5,19 +5,19 @@
 }
 
 body{
-    background: #d3d1d1;
+    background: #dad6c9;
     color: #111010;
     height: 100vh;
     line-height: 1.2;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .container{
     width: 100%;
     height: 100%;
-    overflow-y: scroll;
+    /* overflow-y: scroll;
     scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y mandatory; */
 }
 
 .navbar{
@@ -27,7 +27,7 @@ body{
     display: flex;
     width: 100%;
     height: 60px;
-    background: rgba(165, 164, 164, 0.7);
+    background: #ccc8bc;
 }
 
 .navbar__menu{
@@ -160,7 +160,7 @@ body{
 
 /* section CSS */
 
-section{
+ #home{ 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -170,6 +170,97 @@ section{
     height: 100vh;
     scroll-snap-align: center;
 }
+
+#work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+#intrests{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+#closet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+#work_home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+ 
+#programs{
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: right;
+    text-align: left;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+#projects{
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: right;
+    text-align: left;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+#intrests_home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+#closet_home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
 
 p{
     font-size: 2rem;
@@ -468,7 +559,7 @@ p{
     flex-direction: column;
     padding: 0 1rem;
     max-width: 60rem;
-    margin: 0 auto;
+    margin: 0 auto; 
     
 }
 
@@ -479,21 +570,55 @@ p{
 }
 .work__content h2{
     font-size: 5rem;
+    font-family: 'Russo One', sans-serif;
+}
+
+.work__programs h1{
+    font-size: 2rem;
+    font-display: flex;
     font-family: 'Press Start 2P', cursive;
 }
-
-.des__content{
-    display: flex;
-    flex-direction: column;
-    padding: 0 1rem;
-    max-width: 60rem;
-    margin: 0 auto;
-    border: 2px solid red;
+.work__programs h2{
+    font-size: 2rem;
+    font-family: 'Russo One', sans-serif;
 }
-.work__centent h1{
-
+.work__programs p{
+    font-size: 2rem;
+    font-display: flex;
+    font-family: 'Russo One', sans-serif;
 }
 
-.work__content h2{
+.work__projects h1{
+    font-size: 2rem;
+    font-display: flex;
+    font-family: 'Press Start 2P', cursive;
+}
+.work__projects h2{
+    font-size: 2rem;
+    font-family: 'Russo One', sans-serif;
+}
+.work__projects p{
+    font-size: 2rem;
+    font-display: flex;
+    font-family: 'Russo One', sans-serif;
+}
 
+.intrests__content h1{
+    font-size: 10rem;
+    font-display: flex;
+    font-family: 'Press Start 2P', cursive;
+}
+.intrests__content h2{
+    font-size: 5rem;
+    font-family: 'Russo One', sans-serif;
+}
+
+.closet__content h1{
+    font-size: 10rem;
+    font-display: flex;
+    font-family: 'Press Start 2P', cursive;
+}
+.closet__content h2{
+    font-size: 5rem;
+    font-family: 'Russo One', sans-serif;
 }
